@@ -15,5 +15,5 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # RIL
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    vendor.rild.libpath=mtk-ril.so \
+    vendor.rild.libpath=libril.so \
     vendor.rild.libargs=-d/dev/ttyC0

@@ -37,7 +37,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true
 
 # Copyright headers and guards
-write_headers "cactus cereus"
+write_headers "pokerp pokerp_64"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt"
