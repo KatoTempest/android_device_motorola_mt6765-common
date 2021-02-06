@@ -33,7 +33,7 @@ USE_XML_AUDIO_POLICY_CONF := 1
 TARGET_NO_BOOTLOADER := true
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1440
+TARGET_SCREEN_HEIGHT := 1560
 TARGET_SCREEN_WIDTH := 720
 
 # HIDL
@@ -83,7 +83,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /mnt/vendor/persist:/persist
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := /proc/touchpanel/double_tap_enable
+#TARGET_TAP_TO_WAKE_NODE := /proc/touchpanel/double_tap_enable
 
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
